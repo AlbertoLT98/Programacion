@@ -34,13 +34,13 @@ static float imc;
 	
 	//Dependiendo del valor obtenido en el imc, se ejecuta una de las condiciones y se imprime el resultado
 	 
-	if (imc < 18.5) {
+	if (imc < 18.5f) {
 		System.out.println("Tienes bajo peso");
-	}else if (imc >= 18.5 && imc <= 24.9) {
+	}else if (imc >= 18.5f && imc <= 24.9f) {
 		System.out.println("Tienes un peso normal");
-	}else if (imc >= 25.0 && imc <= 29.9) {
+	}else if (imc >= 25.0f && imc <= 29.9f) {
 		System.out.println("Tienes sobrepeso");
-	}else if (imc >= 30) { 
+	}else if (imc >= 30f) { 
 		System.out.println("Tienes obesidad");
 	}
 	
