@@ -14,7 +14,7 @@ public static void main(String[] args) {
 		numerosMultiplo2 = mult2 * 2; //A cada numero obtenido entre el 1 y el 100 se multiplica por 2 para solo tener multiplos de 2 y estos numeros llegarian hasta el 200
 		if (numerosMultiplo2 <= 100){ //Si el numero es menor o igual a 100 se imprime junto a un espacio entre ellos.
 		System.out.print(numerosMultiplo2 + " "); 
-		cuentaMultiplo2++; //Se cuentan los numeros que se han impreso menores o iguales a 100
+		cuentaMultiplo2++; //Se cuentan los numeros que se han impreso menores o iguales a 100.
 			}
 		}	
 					
